@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+/* Para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .button-container button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+body {
+    font-family: 'Audiowide', cursive;
+}
+
+h1, h2, h3 {
+    font-family: 'Audiowide', cursive;
+}
+
+body {
+    background: url('./assets/img/espacio.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+h1 {
+    color: #ffffff;
+}
+
+.character-block {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.character-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.character-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.blue { background-color: #007bff; }
+.green { background-color: #28a745; }
+.red { background-color: #dc3545; }
+
+.section-header {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 15px;
+   
+   
+}
+
+.card-close {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #dc3545;
+    border: none;
+    color: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.card-close:hover {
+    background: #c82333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
